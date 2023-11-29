@@ -1,76 +1,109 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FisicasGato : MonoBehaviour
 {
     private Rigidbody rb;
 
-    public float velocidadSalto = 10f;
+    public float velocidadSalto = 6.5f;
     public float dragCaida = -6f;
     public LayerMask sueloLayer; // Capa que representa el suelo
 
-    public float fuerzaMinima = 5f; // Fuerza mínima del salto
-    public float fuerzaMaxima = 15f; // Fuerza máxima del salto
-    public float tiempoMaximo = 2f; // Tiempo máximo que se puede mantener presionada la tecla
+   void OnCollisionStay (Collision collision)
+    {
+       if (collision.gameObject.name == "Encimera")
+                      {
+                         // Debug.Log("El objeto colisiona con el objeto de SaltoAlto");
+                          velocidadSalto = 15f;
+                      }
+        if (collision.gameObject.name == "Sillon")
+                              {
+                                
+                                  velocidadSalto = 8.5f;
+                              }
+        
+           if (collision.gameObject.name == "estante4 (1)")
+                                      {
+                                        
+                                          velocidadSalto = 8.5f;
+                                      }
+        
+         if (collision.gameObject.name == "estante4")
+                                              {
+                                                
+                                                  velocidadSalto = 8.5f;
+                                              }
+        
+      
+        if (collision.gameObject.name == "mesacafe")
+                              {
+                                 
+                                  velocidadSalto = 8.5f;
+                              }
+        
+    }
 
-    private float tiempoPresionado; // Tiempo que se ha mantenido presionada la tecla
-    private bool puedeSaltar = true; // Indica si el jugador puede iniciar un salto
+   void OnCollisionExit(Collision collision)
+    {
+           if (collision.gameObject.CompareTag("SaltoAlto"))
+               {
+                   velocidadSalto = 6.5f;
+               }
+         if (collision.gameObject.CompareTag("SaltoMedio"))
+                       {
+                           velocidadSalto = 6.5f;
+                       }
+           if (collision.gameObject.CompareTag("SaltoMedio"))
+                               {
+                                   velocidadSalto = 6.5f;
+                               }
+    }
+    
+    
 
-      void Start()
+    void Start()
+    {
+        // Obtener la referencia al componente Rigidbody
+        rb = GetComponent<Rigidbody>();
+    }
+
+    void Update()
+    {
+        // Salto solo si el personaje está en el suelo
+        if (Input.GetKeyDown(KeyCode.Space) && EstaEnElSuelo())
         {
-            rb = GetComponent<Rigidbody>();
-        }
-    
-        void Update()
-        {
-            if (EstaEnElSuelo())
-            {
-                if (Input.GetKeyDown(KeyCode.Space))
-                {
-                    // Se ha empezado a presionar la tecla, reiniciar el tiempo presionado
-                    tiempoPresionado = 0f;
-                }
-    
-                if (Input.GetKey(KeyCode.Space))
-                {
-                    // La tecla se está manteniendo presionada, incrementar el tiempo presionado
-                    tiempoPresionado += Time.deltaTime;
-                }
-    
-                if (Input.GetKeyUp(KeyCode.Space))
-                {
-                    // Se ha soltado la tecla, realizar el salto con la fuerza determinada por el tiempo presionado
-                    float fuerzaSalto = Mathf.Lerp(fuerzaMinima, fuerzaMaxima, tiempoPresionado / tiempoMaximo);
-                    Saltar(fuerzaSalto);
-                }
-            }
-        }
-    
-        void Saltar(float fuerza)
-        {
-            rb.velocity = new Vector3(rb.velocity.x, 0, rb.velocity.z); // Reiniciar la velocidad vertical antes del salto
-            rb.AddForce(Vector3.up * fuerza, ForceMode.Impulse);
-        }
-    
-        bool EstaEnElSuelo()
-        {
-            // Raycast hacia abajo para verificar si el personaje está en el suelo
-            float raycastDistancia = 0.1f; // Ajusta según la altura de tu personaje
-            return Physics.Raycast(transform.position, Vector3.down, raycastDistancia, sueloLayer);
-        }
-    
-        void FixedUpdate()
-        {
-            if (rb.velocity.y < 0)
-            {
-                // Disminuir el drag cuando el objeto está cayendo y tiene velocidad alta
-                rb.drag = Mathf.Lerp(rb.drag, dragCaida, Time.fixedDeltaTime * 2f);
-            }
-            else
-            {
-                // Restablecer el drag si el objeto está subiendo
-                rb.drag = 0f;
-            }
+            Saltar();
         }
     }
+
+    void Saltar()
+    {
+        // Aplicar una velocidad inicial hacia arriba
+        rb.velocity = new Vector3(0, velocidadSalto, 0);
+    }
+
+    bool EstaEnElSuelo()
+    {
+        // Raycast hacia abajo para verificar si el personaje está en el suelo
+        float raycastDistancia = 0.5f; // Ajusta según la altura de tu personaje
+        return Physics.Raycast(transform.position, Vector3.down, raycastDistancia, sueloLayer);
+    }
+
+    void FixedUpdate()
+    {
+        // Aplicar el drag adecuado cuando el objeto está cayendo
+        if (rb.velocity.y < 0)
+        {
+            // Disminuir el drag cuando el objeto está cayendo y tiene velocidad alta
+            rb.drag = Mathf.Lerp(rb.drag, dragCaida, Time.fixedDeltaTime * 2f);
+        }
+        else
+        {
+            // Restablecer el drag si el objeto está subiendo
+            rb.drag = 0f;
+        }
+    }
+}
