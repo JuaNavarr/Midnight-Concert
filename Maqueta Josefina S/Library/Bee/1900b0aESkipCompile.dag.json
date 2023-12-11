@@ -8,7 +8,8 @@
       "ToBuildDependencies": [
         1,
         2,
-        3
+        3,
+        4
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -22,19 +23,43 @@
       "DebugActionIndex": 1
     },
     {
+      "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/6097564273297756792.rsp",
+      "ActionType": "WriteTextFile",
+      "WriteTextFilePayload": "-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.Unsafe.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Assembly-CSharp.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Cinemachine.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Burst.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.InputSystem.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Mathematics.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Device.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.TextMeshPro.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Timeline.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Tutorials.Core.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.Management.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.Oculus.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/UnityEngine.UI.dll\"\n-a=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll\"\n-s=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4\"\n-s=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen\"\n-s=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\"\n-s=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime\"\n-s=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator\"\n-s=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc\"\n-s=\"D:/2022.1.20f1/Editor/Data/Managed/UnityEngine\"\n-s=\"D:/2022.1.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\"\n-s=\"D:/2022.1.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\"\n-s=\"D:/2022.1.20f1/Editor/Data/NetStandard/Extensions/2.0.0\"\n-s=\"D:/2022.1.20f1/Editor/Data/NetStandard/ref/2.1.0\"\n-s=\"D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/ScriptAssemblies\"\n-o=\"Library/BuildPlayerData/Editor\"\n-rn=\"\"\n-tn=\"TypeDb-All.json\"",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
+      ],
+      "AllowUnwrittenOutputFiles": true,
+      "DebugActionIndex": 2
+    },
+    {
       "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Cinemachine.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.InputSystem.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Device.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Environments.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Environments.Internal.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Internal.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Networking.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Registration.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Scheduler.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Telemetry.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Services.Core.Threading.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.Tutorials.Core.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.VisualScripting.State.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.Management.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.Oculus.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.ConformanceAutomation.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.MockRuntime.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.OculusQuestSupport.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/Unity.XR.OpenXR.Features.RuntimeDebugger.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll\" -s=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -s=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime\" -s=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator\" -s=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Managed/UnityEngine\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/NetStandard/Extensions/2.0.0\" -s=\"C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/NetStandard/ref/2.1.0\" -s=\"C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/ScriptAssemblies\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Action": "\"D:/2022.1.20f1/Editor/Data\\Tools\\netcorerun\\netcorerun.exe\" \"D:/2022.1.20f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" @\"Library\\Bee\\artifacts\\rsp\\6097564273297756792.rsp\"",
       "Inputs": [
-        "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
-        "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
-        "C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
-        "C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll",
-        "C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll",
-        "C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "D:/2022.1.20f1/Editor/Data/Tools/netcorerun/netcorerun.exe",
+        "D:/2022.1.20f1/Editor/Data/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll",
+        "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll",
+        "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll",
+        "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll",
+        "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.Unsafe.dll",
+        "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll",
+        "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll",
+        "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll",
+        "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
         "Library/ScriptAssemblies/Assembly-CSharp.dll",
         "Library/ScriptAssemblies/Cinemachine.dll",
+        "Library/ScriptAssemblies/Unity.Burst.dll",
         "Library/ScriptAssemblies/Unity.InputSystem.dll",
+        "Library/ScriptAssemblies/Unity.Mathematics.dll",
         "Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Configuration.dll",
         "Library/ScriptAssemblies/Unity.Services.Core.Device.dll",
@@ -64,13 +89,20 @@
         "Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll",
         "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
         "Library/ScriptAssemblies/UnityEngine.UI.dll",
-        "Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll"
+        "Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll",
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
       ],
       "Outputs": [
         "Library/BuildPlayerData/Editor/TypeDb-All.json"
       ],
+      "ToBuildDependencies": [
+        2
+      ],
+      "FrontendResponseFiles": [
+        "Library/Bee/artifacts/rsp/6097564273297756792.rsp"
+      ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 2
+      "DebugActionIndex": 3
     },
     {
       "Annotation": "ScriptAssembliesAndTypeDB",
@@ -79,111 +111,111 @@
       "Outputs": [],
       "ToBuildDependencies": [
         1,
-        2
+        3
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 3
+      "DebugActionIndex": 4
     }
   ],
   "FileSignatures": [
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
     },
     {
-      "File": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      "File": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
     },
     {
       "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
@@ -197,16 +229,31 @@
       "File": "Assets/mcs.rsp"
     },
     {
-      "File": "C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+      "File": "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.dll"
     },
     {
-      "File": "C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+      "File": "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Mdb.dll"
     },
     {
-      "File": "C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+      "File": "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Pdb.dll"
     },
     {
-      "File": "C:/Users/soled/OneDrive/Desktop/TVR/Maqueta Josefina S/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      "File": "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.CodeGen/Unity.Burst.Cecil.Rocks.dll"
+    },
+    {
+      "File": "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.burst@1.7.4/Unity.Burst.Unsafe.dll"
+    },
+    {
+      "File": "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2/Runtime/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.testtools.codecoverage@1.1.1/lib/ReportGenerator/ReportGeneratorMerged.dll"
+    },
+    {
+      "File": "D:/CosasGitHub/Midnight-Concert/Maqueta Josefina S/Library/PackageCache/com.unity.visualscripting@1.7.8/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
     },
     {
       "File": "Library/Bee/1900b0aESkipCompile-inputdata.json"
@@ -218,10 +265,34 @@
       "File": "Library/ScriptAssemblies/Cinemachine.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.Burst.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.InputSystem.dll"
     },
     {
+      "File": "Library/ScriptAssemblies/Unity.Mathematics.dll"
+    },
+    {
       "File": "Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll"
     },
     {
       "File": "Library/ScriptAssemblies/Unity.Services.Core.Analytics.dll"
@@ -316,7 +387,7 @@
   ],
   "GlobSignatures": [
     {
-      "Path": "C:/Program Files/Unity/Hub/Editor/2022.1.20f1/Editor/Data/Tools/BuildPipeline"
+      "Path": "D:/2022.1.20f1/Editor/Data/Tools/BuildPipeline"
     }
   ],
   "ContentDigestExtensions": [
@@ -337,7 +408,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "ScriptAssemblies": 1,
-          "ScriptAssembliesAndTypeDB": 3
+          "ScriptAssembliesAndTypeDB": 4
         }
 ,  "DefaultNodes": [
     0
